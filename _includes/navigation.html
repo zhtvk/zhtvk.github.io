@@ -23,9 +23,6 @@
 				{% if site.owner.google_plus %}<li>
 					<a href="https://google.com/{{ site.owner.google_plus }}" target="_blank"><i class="fa fa-fw fa-google-plus"></i> Google+</a>
 				</li>{% endif %}
-        {% if site.owner.google_scholar %}<li>
-					<a href="https://scholar.google.com/{{ site.owner.google_scholar }}" target="_blank"><i class="ai fa-fw ai-google-scholar"></i> Publications</a>
-				</li>{% endif %}
 				{% if site.owner.linkedin %}<li>
 					<a href="https://linkedin.com/in/{{ site.owner.linkedin }}" target="_blank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
 				</li>{% endif %}
@@ -43,6 +40,14 @@
 				</li>{% endif %}
 				{% if site.owner.tumblr %}<li>
 					<a href="http://{{ site.owner.tumblr }}.tumblr.com" target="_blank"><i class="fa fa-fw fa-tumblr"></i> Tumblr</a>
+				</li>{% endif %}
+        {% if site.owner.kaggle %}<li>
+					<a href="https://www.kaggle.com/{{ site.owner.kaggle }}"
+					target="_blank"><i class="fa fa-fw fa-user"></i> Kaggle</a>
+				</li>{% endif %}
+        {% if site.owner.google_scholar %}<li>
+					<a href="https://scholar.google.com/{{ site.owner.google_scholar }}"
+					target="_blank"><i class="ai fa-fw ai-google-scholar"></i> Publications</a>
 				</li>{% endif %}
 			</ul><!-- /.dl-submenu -->
 		</li>
