@@ -25,14 +25,15 @@ owner:
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
   # google_plus:    +yourid
-  kaggle: zhtdkvk
+  # kaggle: zhtdkvk
   google_scholar: citations?user=OfFBxIcAAAAJ
 
 # Background image to be tiled on all pages
 background: 
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-81189358-1  
+google_analytics:
+# UA-81189358-1  
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
